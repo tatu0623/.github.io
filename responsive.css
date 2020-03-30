@@ -42,7 +42,7 @@
 }
 
 
-@media screen and (max-width:380px){
+@media screen and (max-width:414px){
   .container{
     max-width:auto;
     width:100%;
