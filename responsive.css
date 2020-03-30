@@ -1,0 +1,132 @@
+@media screen and (max-width:1025px) {
+
+.container{
+  max-width: auto;
+  width:100%;
+}
+
+.main{
+  height: 1000px;
+}
+
+.message p{
+  margin-right: 50px;
+  white-space: nowrap;
+  line-height: 500%;
+}
+
+.split{
+ position: absolute;
+}
+
+.face-img img{
+  height: 260px;
+  width:250px;
+  margin-left: 10%;
+  margin-top:75%;
+}
+
+.profile{
+  position: relative;
+  margin-right: 40%;
+}
+
+.fa-size{
+  font-size: 3em;
+}
+
+.contact-icon p{
+  font-size: 0.8em;
+}
+
+}
+
+
+@media screen and (max-width:380px){
+  .container{
+    max-width:auto;
+    width:100%;
+   }
+
+.main h2{
+  letter-spacing: normal;
+}
+
+.message p{
+  width:100%;
+  color:#fff;
+  writing-mode:vertical-rl;
+  text-decoration:upright;
+  margin-left: 0;
+  line-height: 50px;
+  font-size: 14px;
+  margin-right:50px;
+}
+
+.profile-wrapper{
+  height: 1600px;
+}
+
+.split-main{
+  flex-direction: column;
+  width: 100%;
+  max-width: auto;
+}
+
+.sprit{
+  width: 100%;
+}
+
+.face-img{
+  position:relative;
+  text-align: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+}
+
+.face-img img{
+  flex-direction: column;
+  float: none;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.profile{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin:0 auto;
+white-space: nowrap;
+text-align: center;
+}
+
+
+.profile h5{
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.name{
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.profile p:not(.name) {
+  white-space: pre-wrap;
+  word-break: normal;
+}
+
+.contact-wrapper{
+  height: 600px;
+}
+
+.contact-icon a{
+  flex-direction: column;
+  display: block;
+}
+
+}
