@@ -25,14 +25,9 @@ $(function(){
   };
   startTimer();
 
-$(".main").hover(
- function() {
-$(".main p").fadeIn(2000);
-},
- function() {
- $(".main p").css("display","block");
- }
- );
+$(".main p").fadeIn(2000).css('display','block');
+
+
 
 var thisOffset;
 $(window).on('load',function(){
